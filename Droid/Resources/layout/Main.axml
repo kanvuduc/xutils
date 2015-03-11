@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff689292"
+    android:gravity="fill">
+    <Button
+        android:text="Scan it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnScan"
+        android:layout_gravity="center_horizontal" />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="500.9dp"
+        android:id="@+id/webView"
+        android:layout_gravity="fill_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/btnScan"
+        android:background="#ffcc7070" />
+</RelativeLayout>
