@@ -21,35 +21,6 @@ namespace Kan.Sample.Droid
 		{
 			base.OnCreate (bundle);
 
-//			SetContentView (Resource.Layout.Main);
-//
-//			Button btnScan = FindViewById (Resource.Id.btnScan) as Button;
-//			WebView webView = FindViewById (Resource.Id.webView) as WebView;
-//			webView.LoadUrl ("http://vnexpress.net");
-//
-//			WebViewClient client = new WebViewClient (){
-//			 };
-//			webView.SetWebViewClient (client);
-//
-//
-//
-//
-//			btnScan.Click += async (sender, e) =>  {
-//				//NOTE: On Android you MUST pass a Context into the Constructor!
-//				var scanner = new MobileBarcodeScanner(this);
-//
-////				var options = new MobileBarcodeScanningOptions {PossibleFormats = new List<BarcodeFormat> {
-////						BarcodeFormat.QR_CODE
-////					}
-////				};
-////
-//				var result = await scanner.Scan();
-//
-//				if (result != null){
-//					webView.LoadUrl(result.Text);
-//				}
-//			};
-
 			global::Xamarin.Forms.Forms.Init (this, bundle);
 
 			LoadApplication (new App ());

@@ -6,7 +6,7 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{EA8B5401-17ED-4F15-9EE2-DE984D1D2A9F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>XSurvey.iOS</RootNamespace>
+    <RootNamespace>Kan.Sample.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
